@@ -25,4 +25,10 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function user_setting() {
+
+        return view('auth.user_setting');
+    }
+
 }
